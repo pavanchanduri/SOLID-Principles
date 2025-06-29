@@ -1,0 +1,6 @@
+Definition:
+===========
+1. Software components should be closed for modification, but open for extension.
+2. Closed for Modification -> New features getting added to the software component, should NOT have to modify the existing code.
+3. Open for Extension -> A software component should be extendable to add a new feature or to add a new behavior to it.
+4. OCP often requires decoupling, which inturn automatically follows the Single Responsibility Principle.
