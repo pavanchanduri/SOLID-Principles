@@ -1,0 +1,5 @@
+Definition:
+===========
+1. Objects should be replaceable with their sub-types without affecting the correctness of the program.
+2. Suggests we move away from the 'IS-A' way of thinking in inheritance.
+3. Tell don't ask -> i.e., we should not inquire/ask about the subtype of the object, instead we should tell the calling class/method about the subtype. (illustrated in Product, Subproduct code).
