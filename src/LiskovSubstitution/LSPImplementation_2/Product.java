@@ -2,11 +2,7 @@ package LiskovSubstitution.LSPImplementation_2;
 
 public class Product {
 
-    protected double discount;
-
-    public Product(double discount) {
-        this.discount = discount;
-    }
+    protected double discount = 30;
 
     public double getDiscount() {
         return discount;

@@ -7,13 +7,13 @@ public class PricingUtils {
 
     public static void main(String[] args) {
         
-        Product p1 = new Product(20);
-        Product p2 = new Product(15);
+        Product p1 = new Product();
+        Product p2 = new Product();
 
         /**
          * The objects can now be replaced by their subtypes without any affect to the functionality
          */
-        InHouseProduct p3 = new InHouseProduct(30);
+        InHouseProduct p3 = new InHouseProduct();
         //Product p3 = new InHouseProduct(30);
 
         List<Product> productList = new ArrayList<>();

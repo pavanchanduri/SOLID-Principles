@@ -7,9 +7,9 @@ public class PricingUtils {
 
     public static void main(String[] args) {
         
-        Product p1 = new Product(20);
-        Product p2 = new Product(15);
-        Product p3 = new InHouseProduct(30);
+        Product p1 = new Product();
+        Product p2 = new Product();
+        Product p3 = new InHouseProduct();
 
         List<Product> productList = new ArrayList<>();
         productList.add(p1);
