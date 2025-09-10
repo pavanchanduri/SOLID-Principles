@@ -6,5 +6,5 @@ public class Product {
 
     public double getDiscount() {
         return discount;
-    } 
+    }
 }

@@ -1,14 +1,14 @@
 package SingleResponsibility;
 
 /**
- * There are multiple reasons for change here such as 
+ * There are multiple reasons for change here such as
  * 1. Change in the student profile
  * 2. Change in the database backend
- * 
+ *
  * Having multiple reasons to change implies the probability of bugs increases
- * 
+ *
  * To Implement SRP, it is therefore recommended to move the saveStudentRecord method
- * to another class and have only Student Profile updation including calling save record method 
+ * to another class and have only Student Profile updation including calling save record method
  * in this class
  */
 
@@ -52,5 +52,4 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
-    
 }

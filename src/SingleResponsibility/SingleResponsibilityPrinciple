@@ -1,14 +1,14 @@
-Definition:
-===========
+# Definition:
+
 1. Every software component (i.e,. class, method or module) should have one and only one responsibility.
 2. Every software component should have a single reason to change.
 
-Cohesion:
-=========
+# Cohesion:
+
 1. Defined as the degree to which various parts of a software component are inter-related e.g., relation between different methods in a class.
 2. **High cohesion** helps attain better adherence to the single responsibility principle.
 
-Coupling:
-=========
-1. Defined as the level of interdependency between various software components. 
+# Coupling:
+
+1. Defined as the level of interdependency between various software components.
 2. **Loose coupling** helps attain better adherence to the single responsibility principle.

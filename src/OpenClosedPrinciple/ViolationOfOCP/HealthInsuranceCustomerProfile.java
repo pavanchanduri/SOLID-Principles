@@ -2,8 +2,7 @@ package OpenClosedPrinciple.ViolationOfOCP;
 
 public class HealthInsuranceCustomerProfile {
 
-    public boolean isLoyalCustomer(){
+    public boolean isLoyalCustomer() {
         return true;
     }
-    
 }

@@ -6,7 +6,7 @@ package OpenClosedPrinciple.ViolationOfOCP;
  * This violates the OCP as we need to modify the InsurancePremiumDiscountCalculator everytime
  */
 public class InsurancePremiumDiscountCalculator {
-    
+
     public int calculatePremiumDiscountPercentage(HealthInsuranceCustomerProfile customerProfile) {
         if(customerProfile.isLoyalCustomer()) {
             return 20;

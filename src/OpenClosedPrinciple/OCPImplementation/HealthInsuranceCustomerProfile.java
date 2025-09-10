@@ -8,5 +8,4 @@ public class HealthInsuranceCustomerProfile implements ICustomerProfile {
     public boolean isLoyalCustomer(){
         return new Random().nextBoolean();
     }
-    
 }
