@@ -31,7 +31,7 @@ public class XeroxWorkCenter implements IMultiFunction {
     @Override
     public void faxDocument() {
         System.out.println("Faxing document...");
-    }    
+    }
 
     @Override
     public void getFaxDetails() {

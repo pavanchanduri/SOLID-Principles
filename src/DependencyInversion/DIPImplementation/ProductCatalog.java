@@ -17,5 +17,4 @@ public class ProductCatalog {
     public List<String> listAllProducts() {
         return this.productRepository.getAllProductNames();
     }
-    
 }

@@ -7,7 +7,7 @@ package InterfaceSegregation.ViolationOfInterfaceSegregation;
  * faxing documents.
  */
 public class HPPrinterScanner implements IMultiFunction {
-    
+
     @Override
     public void printDocument() {
         System.out.println("Printing document...");
@@ -31,7 +31,7 @@ public class HPPrinterScanner implements IMultiFunction {
     @Override
     public void faxDocument() {
         System.out.println("Faxing document...");
-    }    
+    }
 
     @Override
     public void getFaxDetails() {

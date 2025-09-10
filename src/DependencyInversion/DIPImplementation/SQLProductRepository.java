@@ -9,7 +9,8 @@ import java.util.Arrays;
  * SQLProductRepository is dependent on abstraction i.e., IProductRepository
  */
 public class SQLProductRepository implements IProductRepository{
-    
+
+    @Override
     public List<String> getAllProductNames() {
         return Arrays.asList("soaps", "toothpaste");
     }

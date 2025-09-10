@@ -11,5 +11,4 @@ public class ProductCatalog {
         SQLProductRepository sqlProductRepository = new SQLProductRepository();
         sqlProductRepository.getAllProductNames();
     }
-    
 }
